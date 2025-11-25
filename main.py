@@ -441,7 +441,7 @@ def create_clean_schedule_image(schedule_data, group, month, day):
             text_width = text_bbox[2] - text_bbox[0]
             draw.text(((width - text_width) // 2, height // 2), no_schedule_text, 
                      fill='#666666', font=font_medium)
-        footer_text = "Бот расписания КГТУ"
+        footer_text = "Бот расписания"
         footer_bbox = draw.textbbox((0, 0), footer_text, font=font_small)
         footer_width = footer_bbox[2] - footer_bbox[0]
         draw.text((width - footer_width - 20, height - 30), footer_text, 
@@ -1465,7 +1465,7 @@ def main():
         except Exception as e:
             logger.error(f"Error setting up job queue: {e}")
     
-    print("🤖 Бот запущен с полным функционалом уведомлений...")
+    print("🤖 Бот запущен")
     application.run_polling()
 
 if __name__ == "__main__":
