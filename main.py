@@ -24,8 +24,8 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = "8481320208:AAFTLeBjr8SWJkzo06lfzixTMMAop2IcbqY"
-ADMIN_IDS = [1393492435]
+BOT_TOKEN = "/////////////////////////////"
+ADMIN_IDS = ['..........']
 TIMEZONE_OFFSET = 4
 
 DARK_THEME = {
