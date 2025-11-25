@@ -1,4 +1,4 @@
-```markdown
+
 # 🎓 Schedule Bot | Бот Расписания
 
 <div align="center">
